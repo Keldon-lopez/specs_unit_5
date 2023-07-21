@@ -5,11 +5,10 @@ export const potentialCountriesSlice = createSlice({
   initialState: {
     value: [
       {
-        name: [
+        name: 
           {
             common: "America",
           },
-        ],
       },
     ],
   },
