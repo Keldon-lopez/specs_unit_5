@@ -1,15 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
+import initialCountry from "../../assets/initialCountry";
 
 export const potentialCountriesSlice = createSlice({
   name: "potentialCountries",
   initialState: {
     value: [
-      {
-        name: 
-          {
-            common: "America",
-          },
-      },
+      initialCountry,
     ],
   },
   reducers: {
